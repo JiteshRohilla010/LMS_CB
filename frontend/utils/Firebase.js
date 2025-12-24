@@ -2,12 +2,21 @@ import {getAuth, GoogleAuthProvider} from "firebase/auth"
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_APIKEY ,
-  authDomain: "loginlms-a7ea1.firebaseapp.com",
-  projectId: "loginlms-a7ea1",
-  storageBucket: "loginlms-a7ea1.firebasestorage.app",
-  messagingSenderId: "665916718747",
-  appId: "1:665916718747:web:16dbe0bfe5aeeface0903e"
+  authDomain: "vrtualcourses.firebaseapp.com",
+  projectId: "vrtualcourses",
+  storageBucket: "vrtualcourses.firebasestorage.app",
+  messagingSenderId: "288097336370",
+  appId: "1:288097336370:web:bc417831deb9e56b7d102b"
 };
+
+
+
+  // apiKey: "AIzaSyAHnHCjDMA8wsSsjpdlfzfaSYvPXOPuJXk",
+  // authDomain: "vrtualcourses.firebaseapp.com",
+  // projectId: "vrtualcourses",
+  // storageBucket: "vrtualcourses.firebasestorage.app",
+  // messagingSenderId: "288097336370",
+  // appId: "1:288097336370:web:bc417831deb9e56b7d102b"
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

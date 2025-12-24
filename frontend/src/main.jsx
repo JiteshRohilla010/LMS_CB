@@ -8,6 +8,7 @@ import { store } from './redux/store.js'
 
 
 createRoot(document.getElementById('root')).render(
+  
   <BrowserRouter>
   <Provider store={store}>
     <App />
